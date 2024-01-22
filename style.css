@@ -19,7 +19,7 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    font-family: 10px;
+    font-family: 10px;    
 }
 
 .logo {
@@ -28,27 +28,56 @@ nav {
     letter-spacing: 4px;
 }
 
-main {
-    background: no-repeat center center;
-    background-size: cover;
-    height: 92vh;
-}
-
-.nav-list {
+nav ul {
     list-style: none;
     display: flex;
+    display: inline-block;
+    list-style-type: none;
 }
 
-.nav-list li {
+nav ul li {
     letter-spacing: 3px;
     margin-left: 32px;
     cursor: pointer;
     display: inline-block;
     margin-right: 20px;
+    position: relative;
 } 
 
-.nav-list li:hover{
+nav ul li:hover{
     background: var(--cor-padrao);
     border-radius: 5px;
+    
+}
+
+#banner {
+    background: url(./img/banner-home.jpg) no-repeat;
+    background-size: center;
+    background-position: center;
+    right: 60vh;
+    width: 100%;
+    padding: 100px;
+}
+
+#banner .titulo-banner h1 {
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+    color: var(--cor-padrao);
+}
+
+#banner .titulo-banner h4 {
+    font-size: 1rem;
+    color: var(--cor-padrao);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-bottom: 1.5rem;
+}
+
+#banner .titulo-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: grid;
 }
 

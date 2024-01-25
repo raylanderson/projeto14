@@ -3,31 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="css/body.css">
+    <link rel="stylesheet" href="css/header.css">
+
     <title>Academia</title>
 </head>
 <body>
     <header>
-        <nav>
+        <nav class="top-menu">
         <img class="logo" src="img/logo.png" alt="Logo">
-            <ul>
-                <li>Início</li>
-                <li>Modalidades</li>
-                <li>Galeria de fotos</li>
-                <li>Contato</li>
+            <ul class="menu">
+                <li class="menu-item ativo"><a href="">Início</a> </li>
+                <li class="menu-item"><a href="">Modalidades</a></li>
+                <li class="menu-item"><a href="">Galeria de fotos</a></li>
+                <li class="menu-item"><a href="">Contato</li></a>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section id="banner">
-            <div class="titulo-banner">
-                <h1>Você Fitness</h1>
-                <h4>Seu corpo mais saudável</h4>
+        <section class="banner">
+                <img src="img/banner-home.jpg" alt="Mulher">
+            <div class="desc">
+                <h1>Você Fitnes</h1>
+                <h4>Seu corpo mais saudável</h4>    
             </div>
         </section>
-        <section id="cards">
-            <h1>Modalidades</h1>
+        <section class="container-cards">
+            <div class="title-body">
+                <h1>Modalidades</h1>
+            </div>
+        
         <article>
             <img src="img/card/musculacao_1.jpg" alt="Musculação">
             <h1>Musculação</h1>

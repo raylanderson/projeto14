@@ -1,3 +1,5 @@
+/* MENU SUPERIOR */
+
 header {
     padding-left: 10%;
     padding-right: 10%;
@@ -10,7 +12,7 @@ header {
 
 .menu {
     width: auto;
-    margin-top: 35px;
+    margin-top: 25px;
 }
 
 .menu-item {
@@ -26,9 +28,8 @@ header {
 
 .menu-item a {
     text-decoration: none;
-    font-weight: bold;
-    font-size: 1em;
-    padding: 1em 1.2em;
+    padding: 1em 1.em;
+    font-size: 1.4em;
     color: #3a3838;
 }
 
@@ -58,8 +59,10 @@ header {
 .banner .desc h1 {
     color: #fff;
     text-transform: uppercase;
+    font-family: "Open Sans";
     font-size: 4.5em;
     text-shadow: 2px 2px 4px #4c4848;
+    text-align: center;
     margin: 0;
 }
 
@@ -68,5 +71,6 @@ header {
     font-size: 1.4em;
     font-weight: 700;
     text-shadow: 2px 2px 4px #4c4848;
+    text-align: center;
     margin: 0;
 }

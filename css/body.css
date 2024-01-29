@@ -1,0 +1,14 @@
+.container-card {
+    background-color: #f5efef;
+    padding-left: 10%;
+    padding-left: 10%;
+}
+
+.title-body h1 {
+    color: #2bbdce;
+    margin-top: 0;
+    padding: 40px;
+    text-align: center;
+    font-family: "Open Sans";
+    letter-spacing: 2px;
+}

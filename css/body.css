@@ -2,6 +2,8 @@
     background-color: #f5efef;
     padding-left: 10%;
     padding-right: 10%;
+    padding-bottom: 5%;
+    margin: 0;
 }
 
 .title-body h1 {
@@ -36,5 +38,10 @@
 }
 
 .card-content h1 {
-    font-weight: lighter;
+    font-size: 1.6em;
+    margin-bottom: 0;
+    font-weight: 500;
+
 }
+
+\

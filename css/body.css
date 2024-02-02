@@ -3,7 +3,6 @@
     padding-left: 10%;
     padding-right: 10%;
     padding-bottom: 5%;
-    margin: 0;
 }
 
 .title-body h1 {
@@ -25,7 +24,7 @@
     background: #fff;
     border-radius: 0.25rem;
     box-shadow: 0 20px 40px -14px #000; 
-    width: 400px;
+    width: 28%;
 }
 
 .card picture img {
@@ -44,4 +43,8 @@
 
 }
 
-\
+.card-content p {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+

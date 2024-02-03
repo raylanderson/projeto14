@@ -8,9 +8,11 @@
 .title-body h1 {
     color: #2bbdce;
     margin-top: 0;
-    padding: 40px;
+    padding-top: 30px;
+    padding-bottom: 10px;
     text-align: center;
     font-family: "Open Sans";
+    font-size: 2.2em;
     letter-spacing: 2px;
 }
 
@@ -27,7 +29,7 @@
     width: 28%;
 }
 
-.card picture img {
+img {
     max-width: 100%;
 }
 
@@ -38,13 +40,15 @@
 
 .card-content h1 {
     font-size: 1.6em;
-    margin-bottom: 0;
+    margin-bottom: -5px;
     font-weight: 500;
-
+    margin-top: 15px;
+    letter-spacing: 1px;
 }
 
 .card-content p {
     font-size: 1.2rem;
-    font-weight: 400;
+    font-weight: lighter;
+    line-height: 1.4rem;
 }
 
